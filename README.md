@@ -1,16 +1,21 @@
 # AI_ML-BREAST_cancer_SVM_TASK7
-Breast Cancer SVM Classification
+
+Breast Cancer SVM Classification:
+
 This project uses Support Vector Machine (SVM) models to classify breast cancer as benign or malignant based on a dataset.
 
 📂 Project Files
+
 task7_Breast_cancer_SVM.ipynb → Jupyter Notebook with code for data loading, preprocessing, SVM training, and evaluation.
 
-📊 Dataset
+📊 Dataset:
+
 Breast cancer dataset (breast-cancer.csv) with features like radius, texture, smoothness, etc.
 
 Target column: diagnosis (B = Benign, M = Malignant → mapped to 0/1).
 
-🛠️ Steps Performed
+🛠️ Steps Performed:
+
 Load data using pandas.
 
 Clean non-numeric data and map target labels.
@@ -31,7 +36,8 @@ RBF kernel
 
 Evaluate accuracy and print classification reports.
 
-📦 Libraries Used
+📦 Libraries Used:
+
 pandas
 
 numpy
@@ -41,6 +47,7 @@ matplotlib
 scikit-learn (SVC, train_test_split, StandardScaler, accuracy_score, classification_report)
 
 🚀 How to Run
+
 Make sure you have:
 
 Python installed
@@ -59,14 +66,17 @@ bash
 Copy
 Edit
 jupyter notebook task7_Breast_cancer_SVM.ipynb
-📈 Outputs
+
+📈 Outputs:
+
 Accuracy scores for linear and RBF SVM models.
 
 Classification reports (precision, recall, f1-score).
 
 Plots (if implemented).
 
-📌 Notes
+📌 Notes:
+
 You need the breast-cancer.csv file in the same directory.
 
 Hyperparameters (C, gamma) can be tuned for better performance.
